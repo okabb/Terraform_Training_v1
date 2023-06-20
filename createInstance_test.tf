@@ -9,8 +9,8 @@ provider "aws" {
 }
 
 resource "aws_instance" "TF_FirstInstnace" {
-  count         = 3
-  ami           = "ami-0a5d9cd4e632d99c1"
+  count         = 1
+  ami           = "ami-0bff25b43a4479334"
   instance_type = "t2.micro"
   
 }
