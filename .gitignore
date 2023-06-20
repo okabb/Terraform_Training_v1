@@ -14,3 +14,9 @@ _book
 *.epub
 *.mobi
 *.pdf
+
+.terraform.lock.hcl
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
