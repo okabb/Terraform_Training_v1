@@ -4,8 +4,8 @@
 provider "aws" {
     version = "5.4.0"
     region     = "eu-west-1"
-    access_key = "AKIA5J7JGEHJMPBSX37F"
-    secret_key = "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"
+    access_key = "**"
+    secret_key = "**"
 }
 
 resource "aws_instance" "TF_FirstInstnace" {
