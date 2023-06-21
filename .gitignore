@@ -19,4 +19,5 @@ _book
 .terraform/
 terraform.tfstate
 terraform.tfstate.backup
+myvar.tf
 
